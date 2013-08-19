@@ -19,7 +19,10 @@ test:
   timeout: 5000
 
 production:
-  adapter: sqlite3
-  database: db/production.sqlite3
-  pool: 5
+  adapter: postgresql
+  encoding: utf8
+  database: db/production.joueur_voiture86
+  username: joueur_voiture86
+  password: BuiKXgF1eN
+  host: postgresql5.locum.ru
   timeout: 5000
